@@ -1,0 +1,15 @@
+{
+  "name": "sea-node",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run build & php -S localhost:8000 index.php",
+    "build": "node --experimental-sea-config sea-config.json && cp $(command -v node) output/bin"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.12"
+  }
+}
