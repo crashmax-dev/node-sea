@@ -34,13 +34,13 @@ node --experimental-sea-config sea-config.json
 cp $(command -v node) bin
 ```
 
-- Inject the blob into the copied binary by running postject with the following options:
+5. Inject the blob into the copied binary by running postject with the following options:
 
 ```bash
 npx postject bin NODE_SEA_BLOB sea-prep.blob --sentinel-fuse NODE_SEA_FUSE_fce680ab2cc467b6e072b8b5df1996b2
 ```
 
-5. Run the binary:
+6. Run the binary:
 
 ```bash
 ./bin world
