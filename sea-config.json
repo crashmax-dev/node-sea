@@ -1,4 +1,4 @@
 {
   "main": "index.js",
-  "output": "output/sea-prep.blob"
+  "output": "sea-prep.blob"
 }
