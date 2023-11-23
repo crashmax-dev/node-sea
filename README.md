@@ -5,6 +5,9 @@
 > [!NOTE]
 > The single executable application feature currently only supports running a single embedded script using the [CommonJS](https://nodejs.org/api/modules.html#modules-commonjs-modules) module system.
 
+> [!WARNING]
+> This guide to work in Linux, if you need to build an application for another platform (Windows, macOS), you should [read this](https://nodejs.org/api/single-executable-applications.html).
+
 1. Create a JavaScript file:
 
 ```js

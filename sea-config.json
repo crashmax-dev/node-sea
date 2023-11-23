@@ -1,4 +1,7 @@
 {
   "main": "index.js",
-  "output": "sea-prep.blob"
+  "output": "sea-prep.blob",
+  "disableExperimentalSEAWarning": true,
+  "useSnapshot": false,
+  "useCodeCache": true
 }
