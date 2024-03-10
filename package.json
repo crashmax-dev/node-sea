@@ -1,12 +1,13 @@
 {
   "name": "node-sea",
+  "description": "SEA for Node.js",
   "type": "commonjs",
   "version": "1.0.0",
   "scripts": {
     "start": "node build.js"
   },
   "engines": {
-    "node": ">=18.16.0 || >=19.7.0"
+    "node": ">=21.7.0"
   },
   "devDependencies": {
     "@cspotcode/zx": "6.1.2",
